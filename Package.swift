@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "pomo-iphone",
+    name: "PomoIphone",
     platforms: [
         .iOS(.v9)
     ],
