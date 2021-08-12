@@ -17,7 +17,8 @@ let package = Package(
         .target(
             name: "PomoIphone",
             dependencies: ["muparser"],
-            path: "pomo-iphone"
+            path: "pomo-iphone",
+            publicHeadersPath: "pomo-iphone"
         ),
         .target(
             name: "muparser",
