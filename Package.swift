@@ -10,15 +10,14 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "pomo-iphone",
-            targets: ["pomo-iphone", "muparser"]),
+            name: "PomoIphone",
+            targets: ["PomoIphone", "muparser"]),
     ],
     targets: [
         .target(
-            name: "pomo-iphone",
+            name: "PomoIphone",
             dependencies: ["muparser"],
-            path: "pomo-iphone",
-            publicHeadersPath: "pomo-iphone"
+            path: "pomo-iphone"
         ),
         .target(
             name: "muparser",
