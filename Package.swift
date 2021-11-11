@@ -23,7 +23,7 @@ let package = Package(
         .target(
             name: "muparser",
             path: "vendor/muparser",
-            exclude: ["samples", "build", "docs", "libs", ""]
+            exclude: ["samples", "build", "docs", "libs"]
         )
     ]
 )
