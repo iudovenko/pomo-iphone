@@ -22,7 +22,8 @@ let package = Package(
         ),
         .target(
             name: "muparser",
-            path: "vendor/muparser/src"
+            path: "vendor/muparser",
+            exclude: ["samples", "build", "docs", "lib", "Changes.txt", "configure", "Install.txt", "License.txt", "Makefile.in"]
         )
     ]
 )
